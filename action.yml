@@ -3,12 +3,12 @@ description: 'Acloud guru'
 author: 'Skarfoe'
 inputs:
   myInput:
-    desription: 'greeting to use'
+    description: 'greeting to use'
     required: true
     default: 'Awesome guru'
 outputs:
   myOutput:
-    descritption: 'total memory'
+    description: 'total memory'
 runs: 
   using: 'docker'
   image: 'Dockerfile'
